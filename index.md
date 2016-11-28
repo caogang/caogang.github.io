@@ -6,10 +6,10 @@ layout: default
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
-        <h1>有容乃大</h1>
 		<h1>MarvinCAO's Blog</h1>
       </div>
-      <div id="particles-js"></div>
+      <div id="particles-js">
+	  </div>
     </div>
 
     <div class="index-content">
