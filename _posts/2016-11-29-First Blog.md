@@ -1,8 +1,8 @@
 ---
 layout: post
 title: hi
-categories: hi
-tags: hi
+categories: test
+tags: test
 ---
 
 hi!
