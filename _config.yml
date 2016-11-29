@@ -1,6 +1,37 @@
-permalink: /:title
+permalink: /blog/:year/:month/:title.html 
+include: ['.htaccess']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+highlights: pygments
+url: 
+cdn_url: 7u2t01.com1.z0.glb.clouddn.com
+lsi: false
+safe: true
+timezone: Asia/Shanghai
+auto: false 
 
-title: MarvinCAOs's Blog
-url: https://caogang.github.io/
-feed: /atom.xml
-author_info: <a href="https://caogang.github.io/">MarvinCAO</a>
+paginate: 8
+paginate_path: "page:num"
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+JB :
+  IMAGE_PATH : http://coolshell.info/images
+
+# presonal config
+domain: https://caogang.github.io/
+title: MarvinCAO-有容乃大
+description: Draw my life with code
+author: Marvin.Cao
+email: marvin1030915@gmail.com
+github: MarvinCAO
+
+config:
+  js_dir:
+  img_dir:
+  css_dir:
