@@ -53,3 +53,8 @@ public:
     }
 };
 ```
+
+> Tips:  
+> 这里采用的是unordered\_map而不是map
+> 原因如下：  
+> map的实现是基于红黑树的，对于数据具有自动排序的功能，但是效率相比于unordered\_map较差，因为unordered\_map是基于hash函数的
