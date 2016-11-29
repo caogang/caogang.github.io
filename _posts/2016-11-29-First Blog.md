@@ -25,7 +25,7 @@ Example:
 5. 若遍历完成后还没有返回，则返回$vector = [-1, -1]$作为无解输出  
 
 
-C++代码如下：
+## C++代码如下：
 
 ```c++
 class Solution {
@@ -57,4 +57,14 @@ public:
 > Tips:  
 > 这里采用的是unordered\_map而不是map
 > 原因如下：  
-> map的实现是基于红黑树的，对于数据具有自动排序的功能，但是效率相比于unordered\_map较差，因为unordered\_map是基于hash函数的
+> map的实现是基于红黑树的，对于数据具有自动排序的功能，但是效率相比于unordered\_map较差，因为unordered\_map是基于hash函数的  
+
+------------
+
+## Bug Free Procedure  
+**2016.11.29 编译错误**  
+1. unordered_map类的定义应该为`unordered_map<int, int> hash_map`而不是`unordered_map<int> hash_map`  
+2. unordered_map查找Key的函数应该为`hash_map.find(target) != hash_map.end()`  
+3. 遍历数组的时候index应该是从`0~nums.size()-1`，而不是`hash_map.size()-1`  
+4. 返回vector时，应该先`push_back(hash_map[target-nums[i]])`，再`push_back(i)`  
+
