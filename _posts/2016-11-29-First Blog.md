@@ -61,7 +61,7 @@ public:
 
 ------------
 
-## Bug Free Procedure  
+## Bug Free Procedure  从记事本直接写代码  
 **2016.11.29 编译错误+语法错误**  
 1. unordered_map类的定义应该为`unordered_map<int, int> hash_map`而不是`unordered_map<int> hash_map`  
 2. unordered_map查找Key的函数应该为`hash_map.find(target) != hash_map.end()`  
