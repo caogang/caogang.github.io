@@ -68,4 +68,8 @@ public:
 3. 遍历数组的时候index应该是从`0~nums.size()-1`，而不是`hash_map.size()-1`  
 4. 返回vector时，应该先`push_back(hash_map[target-nums[i]])`，再`push_back(i)`  
 
-**2016.11.30 Bingo!!!一次性AC**
+**2016.11.30 Bingo!!!一次性AC**  
+
+**2016.12.01 编译错误**  
+1. vector的求长度的函数是`size()`，而不是`length()`  
+
