@@ -30,10 +30,8 @@ tags: HihoCoder
 
 # 和递归的区别  
 
- ![递归][1]
+ ![递归](https://caogang.github.io/images/1481770028902.jpg)
  
- ![回溯][2]
-
-
-  [1]: ./images/1481770028902.jpg "DFS递归"
-  [2]: ./images/1481770102650.jpg "回溯递归"
+ ![回溯](https://caogang.github.io/images/1481770102650.jpg)
+ 
+ 
