@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 回溯算法
+title: 基本算法系列1--回溯算法
 categories: Algorithms
 tags: HihoCoder
 ---
